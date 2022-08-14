@@ -1,5 +1,5 @@
 ## Background  
-https://dnncommunity.org/forums/aft/3080#8894
+https://dnncommunity.org/forums/aft/3080
 
 What I really want is a way to notify my users when their session is about to end. I already have that built in JavaScript, but that notification only get's displayed on one of the open tabs in cases when multiple tabs are open. I want it to be displayed on all tabs and SignalR seemed like the best solution for the job.
 
