@@ -15,6 +15,7 @@ Typically for the Upendo DNN development process, that Website folder is where y
 The NuGet packages for Microsoft Owin:
 - Microsoft.Owin
 - Microsoft.Owin.Security
+
 have been rolled back to version 2.1.0, despite the fact that it has been depricated. This is because the Microsoft.Owin.Security package seems to be incompatible with DNN 9.
 
 ## Additional Reading
