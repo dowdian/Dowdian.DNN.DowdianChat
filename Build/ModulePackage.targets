@@ -83,6 +83,7 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
     <ItemGroup>
       <BinInstallInclude Include="$(MSBuildProjectDirectory)\bin\*.dll" Exclude="$(MSBuildProjectDirectory)\bin\Owin.dll;$(MSBuildProjectDirectory)\bin\DotNetNuke*;$(MSBuildProjectDirectory)\bin\Dnn*;$(MSBuildProjectDirectory)\bin\Telerik*;$(MSBuildProjectDirectory)\bin\System.*;$(MSBuildProjectDirectory)\bin\Microsoft.*;$(MSBuildProjectDirectory)\bin\Newtonsoft.Json.*" />
+      <BinInstallInclude Include="$(MSBuildProjectDirectory)\bin\Owin.dll"  />
       <BinInstallInclude Include="$(MSBuildProjectDirectory)\bin\Microsoft.Owin.dll"  />
       <BinInstallInclude Include="$(MSBuildProjectDirectory)\bin\Microsoft.Owin.Host.SystemWeb.dll"  />
       <BinInstallInclude Include="$(MSBuildProjectDirectory)\bin\Microsoft.Owin.Security.dll"  />
