@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dotnetnuke type="Package" version="6.0">
+  <packages>
+    <package name="Dowdian.Modules.DowdianChat_Symbols" type="Library" version="01.00.00">
+      <friendlyName>DowdianChat Module Symbols</friendlyName>
+      <description><![CDATA[no]]></description>
+      <owner>
+        <name>Dowdian</name>
+        <organization>Dowdian</organization>
+        <url>dowdian.com</url>
+        <email>michael.dowd@dowdian.com</email>
+      </owner>
+      <license src="License.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <azureCompatible>True</azureCompatible>
+      <dependencies>
+        <dependency type="managedPackage" version="1.0.0">Dowdian.Modules.DowdianChat</dependency>
+      </dependencies>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath></basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

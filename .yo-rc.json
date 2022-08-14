@@ -1,0 +1,12 @@
+{
+  "generator-upendodnn": {
+    "promptValues": {
+      "yourName": "Dowdian",
+      "company": "Dowdian",
+      "companyUrl": "dowdian.com",
+      "emailAddy": "michael.dowd@dowdian.com",
+      "companyName": "Dowdian",
+      "objectPrefix": "ddn"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dotnetnuke type="Package" version="6.0">
+  <packages>
+    <package name="Dowdian.Modules.DowdianChat" type="Module" version="01.00.00">
+      <friendlyName>DowdianChat Module</friendlyName>
+      <description>
+        <![CDATA[<p>no</p>]]>
+      </description>
+      <iconFile>DesktopModules/MVC/Dowdian.Modules.DowdianChat/Images/logo.png</iconFile>
+      <owner>
+        <name>Dowdian</name>
+        <organization>Dowdian</organization>
+        <url><![CDATA[<a href="dowdian.com" target="_blank">dowdian.com</a>]]></url>
+        <email><![CDATA[<a href="mailto:michael.dowd@dowdian.com" target="_blank">michael.dowd@dowdian.com</a>]]></email>
+      </owner>
+      <license src="License.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <azureCompatible>true</azureCompatible>
+      <dependencies>
+        <dependency type="coreversion">09.03.02</dependency>
+      </dependencies>
+      <components>
+        <component type="Script">
+          <scripts>
+          </scripts>
+        </component>
+
+        <component type="Module">
+          <desktopModule>
+            <moduleName>DowdianChat Module</moduleName>
+            <foldername>Dowdian.Modules.DowdianChat</foldername>
+            <businessControllerClass>Dowdian.Modules.DowdianChat.Components.DowdianChatController, Dowdian.Modules.DowdianChat</businessControllerClass>
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>Dowdian Chat</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>Dowdian.Modules.DowdianChat.Controllers/Chat/Chat.mvc</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+          <eventMessage>
+            <processorType>DotNetNuke.Entities.Modules.EventMessageProcessor, DotNetNuke</processorType>
+            <processorCommand>UpgradeModule</processorCommand>
+            <attributes>
+              <businessControllerClass>Dowdian.Modules.DowdianChat.Components.DowdianChatController, Dowdian.Modules.DowdianChat</businessControllerClass>
+              <desktopModuleID>[DESKTOPMODULEID]</desktopModuleID>
+              <upgradeVersionsList>01.00.00</upgradeVersionsList>
+            </attributes>
+          </eventMessage>
+        </component>
+
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>Dowdian.Modules.DowdianChat.dll</name>
+              <path>bin</path>
+              <version>01.00.00</version>
+            </assembly>
+            <assembly>
+              <name>Microsoft.Owin.dll</name>
+              <path>bin</path>
+              <version>02.01.00</version>
+            </assembly>
+            <assembly>
+              <name>Microsoft.Owin.Host.SystemWeb.dll</name>
+              <path>bin</path>
+              <version>02.01.00</version>
+            </assembly>
+            <assembly>
+              <name>Microsoft.Owin.Security.dll</name>
+              <path>bin</path>
+              <version>02.01.00</version>
+            </assembly>
+            <assembly>
+              <name>Microsoft.AspNet.SignalR.Core.dll</name>
+              <path>bin</path>
+              <version>04.02.02</version>
+            </assembly>
+            <assembly>
+              <name>Microsoft.AspNet.SignalR.SystemWeb.dll</name>
+              <path>bin</path>
+              <version>04.02.02</version>
+            </assembly>
+          </assemblies>
+        </component>
+
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/MVC/Dowdian.Modules.DowdianChat</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
