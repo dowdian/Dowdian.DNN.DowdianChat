@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Dowdian.Modules.DowdianChat
+namespace Dowdian.Modules.DowdianChat.Hubs
 {
     /// <summary>
     /// ChatHub

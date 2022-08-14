@@ -1,7 +1,7 @@
 ﻿using Owin;
 using Microsoft.Owin;
-[assembly: OwinStartup(typeof(Dowdian.Modules.DowdianChat.Startup))]
-namespace Dowdian.Modules.DowdianChat
+[assembly: OwinStartup(typeof(Dowdian.Modules.DowdianChat.Components.Startup))]
+namespace Dowdian.Modules.DowdianChat.Components
 {
     /// <summary>
     /// 
