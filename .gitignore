@@ -11,6 +11,7 @@
 *.suo
 *.user
 *.sln.docstates
+[Ww]ebsite/
 
 # Build results
 [Dd]ebug/
