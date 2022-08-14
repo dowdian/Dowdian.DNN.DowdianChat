@@ -11,6 +11,12 @@ Clone the repository and perform a "Release" build for the solution. This will c
 
 Typically for the Upendo DNN development process, that Website folder is where you would install your DNN instance. Performing a "Debug" build of the solution will place all the executables and all of the interpreted files where they need to be within the Website folder to update the module after it's been installed.
 
+## Important Note
+The NuGet packages for Microsoft Owin:
+- Microsoft.Owin
+- Microsoft.Owin.Security
+have been rolled back to version 2.1.0, despite the fact that it has been depricated. This is because the Microsoft.Owin.Security package seems to be incompatible with DNN 9.
+
 ## Additional Reading
 - https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/tutorial-getting-started-with-signalr-and-mvc
 - https://www.dnnsoftware.com/community-blog/cid/151246/using-signalr-with-dotnetnuke-modules
