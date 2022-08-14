@@ -16,7 +16,7 @@ The NuGet packages for Microsoft Owin:
 - Microsoft.Owin
 - Microsoft.Owin.Security
 
-have been rolled back to version 2.1.0, despite the fact that it has been depricated. This is because the Microsoft.Owin.Security package seems to be incompatible with DNN 9.
+have been rolled back to version 2.1.0, despite the fact that it has been deprecated. This is because these packages seem to be incompatible with DNN 9.
 
 ## Additional Reading
 - https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/tutorial-getting-started-with-signalr-and-mvc
