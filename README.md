@@ -12,7 +12,7 @@ Clone the repository and perform a "Release" build for the solution. This will c
 Typically for the Upendo DNN development process, that Website folder is where you would install your DNN instance. Performing a "Debug" build of the solution will place all the executables and all of the interpreted files where they need to be within the Website folder to update the module after it's been installed.
 
 ## Known Issue!
-https://github.com/dowdian/Dowdian.DNN.DowdianChat/issues/1
+Issue https://github.com/dowdian/Dowdian.DNN.DowdianChat/issues/1
 
 The NuGet packages for Microsoft Owin:
 - Microsoft.Owin
